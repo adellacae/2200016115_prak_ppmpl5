@@ -31,5 +31,4 @@ class UserBehavior(FastHttpUser):
         response = self.client.delete(f"/users/{user_id}")
         print(f"DELETE /users/{user_id}", response.status_code)
 
-# Untuk menjalankan locust, gunakan perintah berikut di terminal:
-# locust -f locustfile.py --host http://127.0.0.1:8000
+
