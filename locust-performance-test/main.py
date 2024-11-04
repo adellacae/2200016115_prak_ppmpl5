@@ -52,5 +52,4 @@ def delete_user(user_id: int):
         return {"detail": "User deleted"}
     raise HTTPException(status_code=404, detail="User not found")
 
-# Untuk menjalankan aplikasi, gunakan perintah berikut di terminal:
-# uvicorn main:app --reload
+
